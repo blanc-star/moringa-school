@@ -1,0 +1,111 @@
+nav {
+    background-color:black;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color:white;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    
+}
+
+nav a:hover {
+    background-color: black;
+}
+body {
+    background-color: darkgrey;
+      font-family: Tohama;
+      padding: 20px;
+      font: 20px;
+    }
+    
+    h1 {
+      font-size: 40px;
+      background-color:navy;
+      box-shadow: 5px 5px 5px 5px silver;
+    }
+    
+    h2 {
+      font-size: 30px;
+     font-style: italic;
+     background-color: navy;
+     box-shadow: white;
+     color: whitesmoke
+    }
+    
+    .established {
+      font-style: italic;
+    }
+    
+    h1, h2, p {
+      text-align: center;
+    } 
+  
+    
+    .bottom-line {
+      margin-top: 25px;
+    }
+    
+    h1, h2 {
+      font-family: Impact, serif;
+    }
+    
+    p {
+      display: inline-block;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      font-size: 18px;
+      color: whitesmoke;
+    }
+nav{
+    background-color: white;
+}
+image{
+  text-align: center;
+  margin-left: 10;
+}
+button{
+  color: white;
+  background-color: grey;
+  text-decoration-color: aliceblue;
+  padding: left 10px; ;
+  padding-right: 10px;
+  padding-top: 7px;
+}
+.to{
+  margin-right: 200px;
+  color: black;
+}
+.Buy:active{
+  background-color: black;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: large;
+}
+.Buy:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.Buy:active{
+  background-color: white;
+  color: black;
+}
